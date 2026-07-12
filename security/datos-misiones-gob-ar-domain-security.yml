@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: datos.misiones.gob.ar
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  1 10:43:34 2026 GMT
+  hsts: false
+domains:
+- domain: gob.ar
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
